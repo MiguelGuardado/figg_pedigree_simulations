@@ -1,0 +1,12 @@
+results/ibis_full
+results/king_full
+input_data/genetic_map_hg38_withX.txt
+results/king_full_summary/king_full_kinship_results.csv
+results/king_full_summary/king_full_segment_results.csv
+results/ibis_full_summary/ibis_full_kinship_results.csv
+results/ibis_full_summary/ibis_full_segment_results.csv
+.DS_Store
+**/.DS_Store
+
+.DS_Store
+**/.DS_Store
