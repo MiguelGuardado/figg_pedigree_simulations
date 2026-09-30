@@ -1,6 +1,6 @@
 #!/bin/env bash
 #$ -cwd
-#$ -l h_rt=300:00:00
+#$ -l h_rt=24:00:00
 #$ -l mem_free=15G
 #$ -t 1-100
 
@@ -22,7 +22,7 @@ done
 input_dir=/wynton/scratch/guardado075/king_hap_ibd/large_fam_1000sims
 vcf_output="${input_dir}/largefam_${super_pop}_seed${SGE_TASK_ID}_merged_genomes.vcf.gz"
 bed_file="${input_dir}/largefam_${super_pop}_seed${SGE_TASK_ID}_merged_genomes"
-output_prefix=~/rohlfs_lab/igg_prelim/king_hap_ibd/large_fam_1000sims/results/king_full/large_fam_${super_pop}_seed${SGE_TASK_ID}
+output_prefix=~/rohlfs_lab/igg_prelim/king_hap_ibd/large_fam_1000sims/results/king_full_v2/large_fam_${super_pop}_seed${SGE_TASK_ID}
 
 #large_fam_${POP}_seed${SEED}_chr${CHR}_hapmap_re8
 

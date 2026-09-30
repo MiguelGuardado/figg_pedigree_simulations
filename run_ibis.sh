@@ -1,6 +1,6 @@
 #!/bin/env bash
 #$ -cwd  # use current working directory
-#$ -l h_rt=300:00:00  # The scheduler knows that the job to run no longer than 20 minutes allowing it to be scheduled much sooner than if no run-time was specified
+#$ -l h_rt=24:00:00  # The scheduler knows that the job to run no longer than 20 minutes allowing it to be scheduled much sooner than if no run-time was specified
 #$ -l mem_free=10G  #  the job will be allotted 10 GiB of RAM per slot
 #$ -t 1-100  # Requesting the 1000 jobs to be preformed for this script
 
@@ -23,7 +23,7 @@ done
 
 input_dir=/wynton/scratch/guardado075/king_hap_ibd/large_fam_1000sims
 bed_file="${input_dir}/largefam_${super_pop}_seed${SGE_TASK_ID}_merged_genomes"
-output_prefix=~/rohlfs_lab/igg_prelim/king_hap_ibd/large_fam_1000sims/results/ibis_full/large_fam_${super_pop}_seed${SGE_TASK_ID}
+output_prefix=~/rohlfs_lab/igg_prelim/king_hap_ibd/large_fam_1000sims/results/ibis_full_v2/large_fam_${super_pop}_seed${SGE_TASK_ID}
 
 
 # Run plink2 command to add id to bim file based on chr and pos
