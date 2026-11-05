@@ -10,3 +10,25 @@ results/ibis_full_summary/ibis_full_segment_results.csv
 
 .DS_Store
 **/.DS_Store
+
+# ---- Large files (>50 MB; GitHub rejects files >100 MB) ----
+# Per-run raw outputs
+results/king_full_v3/
+results/king_v3_snp_panel/
+results/ibis_full_v3/
+results/ibis_v3_snp_panel/
+results/hap_ibd_full_v3/
+results/hap_ibd_v3_snp_panel/
+
+# Combined result tables
+results/king_full_kinship_results.csv
+results/king_full_segment_results.csv
+results/king_snp_panel_kinship_results.csv
+results/king_snp_panel_segment_results.csv
+results/ibis_full_kinship_results.csv
+results/ibis_full_segment_results.csv
+results/ibis_snp_panel_kinship_results.csv
+results/ibis_snp_panel_segment_results.csv
+results/hap_ibd_full_results.csv
+results/hap_ibd_snp_panel_results.csv
+
